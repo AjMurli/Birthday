@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Happy Birthday Tanishq</title>
+
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Arvo&family=Bree+Serif&family=Clicker+Script&family=Courgette&family=Libre+Baskerville:wght@700&family=Lobster+Two:wght@700&family=Orelega+One&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Patua+One&family=Roboto+Slab:wght@600&family=Signika+Negative:wght@300&family=Yantramanav&display=swap"
+			rel="stylesheet">
+
+		<style type="text/css">
+			body {
+				background: linear-gradient(389deg, #00f4cf, #7e0081, #04b0fa);
+				height: 100vh;
+				margin: 0;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				animation-name: change;
+				animation-duration: 4s;
+			}
+
+			@keyframes change {
+				from {
+					background: linear-gradient(389deg, #0045f4, #032b68, #00f4cf);
+				}
+
+				to {
+					background: linear-gradient(389deg, #08f1e1, #200351, #62f400);
+				}
+
+			}
+
+			.card {
+				position: relative;
+				width: 300px;
+				height: 425px;
+				border-radius: 1rem;
+				border: 10px solid #3be3f9;
+				margin: 60px auto 0 auto;
+				box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+				background-image: linear-gradient(to bottom, rgb(5, 28, 97), rgba(19, 8, 98, 0.5)), url(/img5.jpeg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: #e6f0e6;
+			}
+
+			.card .text-container {
+				width: 80%;
+				height: 80%;
+				margin: auto;
+			}
+
+			.strikethrough {
+				text-decoration: line-through;
+			}
+
+			.card .text-container #head {
+				font-size: 1.5em;
+				margin: 50px auto 50px auto;
+				font-family: 'Bree Serif', serif;
+				/* font-family: 'Libre Baskerville', serif; */
+				/* font-family: 'PT Serif', serif; */
+			}
+
+			.card p {
+				font-size: 1.1em;
+				line-height: 1.4;
+				font-family: 'Nobile';
+				font-family: 'Bree Serif', serif;
+				color: #331717;
+				font-style: italic;
+				text-align: center;
+				margin: 30px auto 0px auto;
+			}
+
+			.card .front {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				margin: -10px 0px 0px -10px;
+				border: 10px solid #3be3f9;
+				backface-visibility: hidden;
+				background-color: #3be3f9;
+				border-radius: 1rem;
+				background-size: contain;
+				transform-style: preserve-3d;
+				transform-origin: 0% 50%;
+				transform: perspective(800px) rotateY(0deg);
+				transition: all 0.8s ease-in-out;
+			}
+
+			.card:hover .front {
+				transform: perspective(800px) rotateY(-170deg);
+				background-color: #41718d;
+			}
+
+			.card:hover .back {
+				transform: perspective(800px) rotateY(-170deg);
+				box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+				background-color: #d2dcd2;
+			}
+
+			.card .back {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				border-radius: 1rem;
+				border: 10px solid #3be3f9;
+				margin: -10px 0px 0px -10px;
+				backface-visibility: visible;
+				filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+				transform-style: preserve-3d;
+				transform-origin: 0% 50%;
+				transform: perspective(800px) rotateY(0deg);
+				transition: all 0.8s ease-in-out;
+				background-color: #e6f0e6;
+				box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+			}
+
+			.imgset {
+				position: relative;
+				z-index: 1;
+				margin-bottom: -215px;
+			}
+
+			.imgset img {
+				box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+				border-radius: 5px;
+			}
+
+			h5,
+			#head {
+				color: white;
+			}
+
+			.back {
+				box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+				background-image: linear-gradient(to bottom, rgb(5, 28, 97), rgba(19, 8, 98, 0.5)),
+					url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+			}
+
+			.main1 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 1rem;
+				flex-wrap: wrap;
+				margin: 1rem 0;
+			}
+
+			.slide1 {
+				width: 40%;
+				border-top-left-radius: 1rem;
+				border-bottom-right-radius: 1rem;
+			}
+		</style>
+	</head>
+
+<body>
+	<video src="/music1.mpeg" controls autoplay hidden></video>
+	<div class="card">
+		<div class="back">
+		</div>
+		<div class="front">
+			<div class="imgset">
+				<img width="100%"
+					src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+			</div>
+		</div>
+		<div class="text-container">
+			<p id="head">Happy Birthday!</p>
+			<h5 style="font-size:25px">TANISHQ </h5>
+			<p style="color:white;">I hope your special day will bring you lots of happiness, love, and fun. You deserve
+				them a lot. Enjoy!
+			</p>
+			<p style="color:white;">Hope your day goes great! <br>🙂🎂✨🙂</p>
+		</div>
+
+	</div>
+	<!--  -->
+	<div class="main1">
+		<img src="/img1.jpeg" alt="" class="slide1">
+		<img src="/5.jpg" alt="" class="slide1">
+		<img src="/img3.jpeg" alt="" class="slide1">
+		<img src="/1.jpg" alt="" class="slide1">
+		<img src="/4.jpg" alt="" class="slide1">
+		<img src="/6.jpg" alt="" class="slide1">
+		<img src="/7.jpg" alt="" class="slide1">
+		<img src="/8.jpg" alt="" class="slide1">
+		<img src="/1.jpg" alt="" class="slide1">
+		<img src="/11.jpg" alt="" class="slide1">
+		<img src="/12.jpg" alt="" class="slide1">
+		<img src="/2.jpg" alt="" class="slide1">
+		<img src="/10.jpg" alt="" class="slide1">
+		<img src="/15.jpg" alt="" class="slide1">
+		<img src="/img1.jpg" alt="" class="slide1">
+	</div>
+	<!--  -->
+
+</body>
+
+<script>
+</script>
+
+</html>
